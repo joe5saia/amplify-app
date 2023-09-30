@@ -1,38 +1,46 @@
-.App {
-  text-align: center;
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #001F3F;  /* Navy Blue */
+  color: #F0E68C;  /* Khaki */
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Header Styles */
+header {
+  padding: 10px;
+  background-color: #3E4C59;  /* Gunmetal */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+header img {
+  border-radius: 50%;
+  border: 2px solid #F4A460;  /* Sandy Brown */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Sidebar Styles */
+aside {
+  padding: 10px;
+  background-color: #556B2F;  /* Dark Olive Green */
 }
 
-.App-link {
-  color: #61dafb;
+aside a {
+  color: #F0E68C;  /* Khaki */
+  text-decoration: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+aside a:hover {
+  text-decoration: underline;
 }
+
+/* Profile Summary Styles */
+main {
+  padding: 20px;
+  background-color: #483D8B;  /* Dark Slate Blue */
+}
+
+main h1, main p {
+  margin: 0 0 10px;
+}
+
+/* Adjust the margin or padding values to ensure proper spacing and alignment */
